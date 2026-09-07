@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="icon" href="images/01_PCP_favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+</head>
+
+<body class="page-standard">
+
+<!-- En-tête -->
+<header>
+<a href="index.html">
+<img src="images/02_PCP_logo.jpg" alt="Logo PCP">
+</a>
+<div class="search-container">
+<button class="search-toggle" onclick="toggleSearch()">
+<img src="images/03_search.svg" alt="Search" width="20" height="20">
+</button>
+<input type="text" id="search-input" placeholder="Recherche...">
+</div>
+</header>
+
+<!-- Fil d’Ariane -->
+<nav class="breadcrumb">
+<a href="index.html">Accueil</a> ›
+Contact
+</nav>
+
+<!-- Contenu -->
+<main>
+<div class="bloc-texte">
+<h2>Informations & contact :</h2>
+<p> ___________________ </p>
+<p> Phytohormonal Catalog of Plants est une initiative d'un étudiant en sciences de l'information de la HEG, également bibliothécaire à l'HEPIA. </p>
+<p> Ce site a pour but de répertorier toutes les plantes ayant un impact sur les hormones.</p>
+<p> Espérant se rendre utile à des fins éducatives et pouvoir peut-être faciliter certaines recherches, le créateur du site est joignable par ce formulaire:</p>
+
+<form action="https://formsubmit.co/thomas.iff@hes-so.ch" method="POST" class="formulaire-contact">
+<label for="type">Type de requête :</label>
+<select id="type" name="Type de requête" required>
+<option value="">-- Choisissez --</option>
+<option value="Proposer une plante">Proposer une plante</option>
+<option value="Proposer une modification">Proposer une modification</option>
+<option value="Demande de collaboration">Demande de collaboration</option>
+<option value="Demande concernant les données">Demande concernant les données</option>
+</select>
+
+<label for="email">Adresse email :</label>
+<input type="email" id="email" name="Email" required>
+
+<label for="message">Message :</label>
+<textarea id="message" name="Message" rows="6" required></textarea>
+
+<input type="hidden" name="_next" value="merci.html">
+
+<button type="submit">Soumettre</button>
+</form>
+</div>
+</main>
+
+<!-- Pied de page -->
+<footer>
+<p>dernière modification le: <span id="last-modified"></span></p>
+<p>Phytohormonal Catalog of Plants © 2025</p>
+<p><a href="contact.html">Informations & contact</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script src="js/recherche.js"></script>
+
+</body>
+</html>

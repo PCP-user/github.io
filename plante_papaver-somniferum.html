@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Informations générales -->
+<head>
+<meta charset="UTF-8">
+<title>Plante</title>
+<link rel="icon" href="images/01_PCP_favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css"></head>
+
+<body class="page-plante">
+
+<!-- En-tête -->
+<header>
+  <a href="index.html">
+    <img src="images/02_PCP_logo.jpg" alt="Logo PCP">
+  </a>
+  <div class="search-container">
+    <button class="search-toggle" onclick="toggleSearch()">
+      <img src="images/03_search.svg" alt="Search" width="20" height="20">
+    </button>
+    <input type="text" id="search-input" placeholder="Recherche...">
+  </div>
+</header>
+
+<!-- Fil d'Ariane -->
+<nav class="breadcrumb">
+  <a href="index.html">Accueil</a> ›
+  <a href="categorie_pro_prolactine.html">Catégorie</a> ›
+  Plante
+</nav>
+
+<!-- Contenu -->
+
+<main style='display:flex;gap:40px;margin:20px;'>
+
+<div class="zone-centrale">
+<div class="colonne droite">
+<img src="images/images_plantes/papaver-somniferum.jpg" alt='Pavot à opium'>
+<h1>Pavot à opium</h1>
+<h2>papaver somniferum</h2>
+</div>
+
+<div class="colonne gauche">
+<p>___________________</p>
+<p><strong>Effet:</strong></p>
+<p>Pro-prolactine</p>
+<p>___________________</p>
+<p><strong>Méchanisme d'action:</strong></p>
+<p>Inhibiteur du circuit dopaminergique</p>
+<p>___________________</p>
+<p><strong>Molécule active:</strong></p>
+<p>Morphine, codéïne</p>
+<p>___________________</p>
+<p><strong>Commentaires:</strong></p>
+<p>L'opium, de par son action sur les récepteurs μ-opioïdes, élève les niveaux de prolactine. A noter que cette action est principalement considérée comme un effet secondaire de ce psychotrope, et que si cet effet-là est recherché, il existe d'autres plantes correspondant mieux à ce besoin.</p>
+<p>___________________</p>
+<p><strong>Sources:</strong></p>
+<p>https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1365-2826.1990.tb00416.x</p>
+<p></p>
+</div></main>
+
+<!-- Pied de page -->
+<footer>
+  <p>dernière modification le: <span id="last-modified"></span></p>
+  <p>Phytohormonal Catalog of Plants © 2025</p>
+  <p><a href="contact.html">Informations & contact</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script src="js/recherche.js"></script>
+
+</body>
+</html>

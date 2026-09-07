@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Informations générales -->
+<head>
+<title>Accueil</title>
+<link rel="icon" href="images/01_PCP_favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+</head>
+
+<body class="page-index">
+
+<!-- En-tête -->
+<header>
+  <a href="index.html">
+    <img src="images/02_PCP_logo.jpg" alt="Logo PCP">
+  </a>
+  <div class="search-container">
+    <button class="search-toggle" onclick="toggleSearch()">
+      <img src="images/03_search.svg" alt="Search" width="20" height="20">
+    </button>
+    <input type="text" id="search-input" placeholder="Recherche...">
+  </div>
+</header>
+
+<!-- Contenu -->
+<main>
+
+<div class="wrapper">
+<div class="category-flex">
+<div class="tile" style="background-image: url('images/1.png');"></div>
+<div class="tile" style="background-image: url('images/2.png');"></div>
+<div class="tile" style="background-image: url('images/3.png');"></div>
+<div class="tile clickable" style="background-image: url('images/4.png');"><a href="categorie_pro_oestrogene.html">pro- œstrogène</a></div>
+<div class="tile clickable" style="background-image: url('images/5.png');"><a href="categorie_anti_oestrogene.html">anti-œstrogène</a></div>
+
+<div class="tile" style="background-image: url('images/6.png');"></div>
+<div class="tile" style="background-image: url('images/7.png');"></div>
+<div class="tile" style="background-image: url('images/8.png');"></div>
+<div class="tile clickable" style="background-image: url('images/9.png');"><a href="categorie_pro_DHT.html">pro-DHT</a></div>
+<div class="tile clickable" style="background-image: url('images/10.png');"><a href="categorie_anti_DHT.html">anti-DHT</a></div>
+
+<div class="tile" style="background-image: url('images/11.png');"></div>
+<div class="tile" style="background-image: url('images/12.png');"></div>
+<div class="tile" style="background-image: url('images/13.png');"></div>
+<div class="tile clickable" style="background-image: url('images/14.png');"><a href="categorie_pro_prolactine.html">pro-prolactine</a></div>
+<div class="tile clickable" style="background-image: url('images/15.png');"><a href="categorie_pro_LH.html">pro-LH</a></div>
+
+</div>
+</div>
+
+<div class="voir-toutes-plantes">
+<a href="catalogue.html">Voir toutes les plantes</a>
+</div>
+
+</main>
+
+<!-- Pied de page -->
+<footer>
+  <p>dernière modification le: <span id="last-modified"></span></p>
+  <p>Phytohormonal Catalog of Plants © 2025</p>
+  <p><a href="contact.html">Informations & contact</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script src="js/recherche.js"></script>
+
+</body>
+</html>

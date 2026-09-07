@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Informations générales -->
+<head>
+<meta charset="UTF-8">
+<title>Plante</title>
+<link rel="icon" href="images/01_PCP_favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css"></head>
+
+<body class="page-plante">
+
+<!-- En-tête -->
+<header>
+  <a href="index.html">
+    <img src="images/02_PCP_logo.jpg" alt="Logo PCP">
+  </a>
+  <div class="search-container">
+    <button class="search-toggle" onclick="toggleSearch()">
+      <img src="images/03_search.svg" alt="Search" width="20" height="20">
+    </button>
+    <input type="text" id="search-input" placeholder="Recherche...">
+  </div>
+</header>
+
+<!-- Fil d'Ariane -->
+<nav class="breadcrumb">
+  <a href="index.html">Accueil</a> ›
+  <a href="categorie_pro_LH.html">Catégorie</a> ›
+  Plante
+</nav>
+
+<!-- Contenu -->
+
+<main style='display:flex;gap:40px;margin:20px;'>
+
+<div class="zone-centrale">
+<div class="colonne droite">
+<img src="images/images_plantes/anacyclus-pyrethrum.jpg" alt='Akarkara'>
+<h1>Akarkara</h1>
+<h2>anacyclus pyrethrum</h2>
+</div>
+
+<div class="colonne gauche">
+<p>___________________</p>
+<p><strong>Effet:</strong></p>
+<p>Pro-LH</p>
+<p>___________________</p>
+<p><strong>Méchanisme d'action:</strong></p>
+<p>Inconnu</p>
+<p>___________________</p>
+<p><strong>Molécule active:</strong></p>
+<p>Alkylamides</p>
+<p>___________________</p>
+<p><strong>Commentaires:</strong></p>
+<p>La racine de l'akarkara est la partie à consommer pour profiter de ses vertus.</p>
+<p>___________________</p>
+<p><strong>Sources:</strong></p>
+<p>https://www.researchgate.net/publication/332737335_The_Effects_of_Anacyclus_pyrethrum_Alcoholic_Root_Extract_on_FSH_LH_Testosterone_and_Sperm_Count_in_Diabetic_Male_Rats</p>
+<p></p>
+</div></main>
+
+<!-- Pied de page -->
+<footer>
+  <p>dernière modification le: <span id="last-modified"></span></p>
+  <p>Phytohormonal Catalog of Plants © 2025</p>
+  <p><a href="contact.html">Informations & contact</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script src="js/recherche.js"></script>
+
+</body>
+</html>

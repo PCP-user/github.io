@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Informations générales -->
+<head>
+<meta charset="UTF-8">
+<title>Résultats de la recherche</title>
+<link rel="icon" href="images/01_PCP_favicon.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-standard">
+
+<!-- En-tête -->
+<header>
+  <a href="index.html">
+    <img src="images/02_PCP_logo.jpg" alt="Logo PCP">
+  </a>
+  <div class="search-container">
+    <button class="search-toggle" onclick="toggleSearch()">
+      <img src="images/03_search.svg" alt="Search" width="20" height="20">
+    </button>
+    <input type="text" id="search-input" placeholder="Recherche...">
+  </div>
+</header>
+
+<!-- Fil d'Ariane -->
+<nav class="breadcrumb">
+  <a href="index.html">Accueil</a> ›
+  Résultats de la recherche
+</nav>
+
+<!-- Contenu -->
+<main style="padding: 2rem;">
+    
+<div class="bloc-texte">
+<h2>Résultats pour votre recherche :</h2>
+</div>
+
+<div id="resultats-recherche" class="grille-plantes"></div>
+</main>
+
+<!-- Pied de page -->
+<footer>
+  <p>dernière modification le: <span id="last-modified"></span></p>
+  <p>Phytohormonal Catalog of Plants © 2025</p>
+  <p><a href="contact.html">Informations & contact</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+<script src="js/recherche.js"></script>
+
+</body>
+</html>
